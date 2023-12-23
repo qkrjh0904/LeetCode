@@ -15,7 +15,8 @@ class Solution {
 
             int diff = price2 - price1;
             answer = Math.max(answer, diff);
-            if(diff < 0){
+            System.out.println(p1+","+p2+","+diff+","+answer);
+            if(diff <= 0){
                 p1 = p2;
             }
             p2++;
